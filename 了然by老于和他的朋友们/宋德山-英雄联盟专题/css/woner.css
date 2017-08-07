@@ -1,0 +1,727 @@
+ul,li,ol,dl,dt,dd{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body,h1,h2,h3,h4,h5,h6,p{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url(../h/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #0D3B6C;
+}
+/*头部 */
+.clear:after{
+    content:" ";clear: both;display: block;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    z-index: 9999;
+    background-color: #0D3B6C;
+}
+.header .layout1 img{
+    position: relative;
+    top: -12px;
+    float: left;
+}
+.layout1{
+    width: 1300px;
+    height: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    left: 300px;
+}
+.header .layout1 input{
+    border-width: 0;
+    border-radius: 4px;
+}
+.header .layout1 .zu-top-search-input{
+    padding: 0 5px;
+    width: 300px;
+    height: 33px;
+    position: absolute;
+    top: 6px;
+    left: 129px;
+    font-size: 15px;
+}
+.header .layout1 .btn{
+    width: 57px;
+    height: 33px;
+    background-color: #0E77E4;
+    color: #FFF;
+    position: absolute;
+    top: 6px;
+    left: 438px;
+}
+.biaoti{
+    float:right;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+.biaoti li{
+    float: right;
+    font-size: 14px;
+    margin:  15px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.12);
+
+}
+.biaoti li a{
+    color: #fff;
+    font-weight: 200;
+}
+.biaoti li a:hover{
+    color: #FF0000;
+}
+
+.header .layout1 .zu-top-add-question{
+    position: absolute;
+    top: 6px;
+    right: 120px;
+    width: 66px;
+    height: 33px;
+    background-color: #0E77E4;
+    color: #FFF;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+/**************轮播区域******************/
+.lunbo{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+.lunbo img{
+    width: 100%;
+    height: 480px;
+}
+ /****************题头***********************/
+.titou{ 
+    width:  1300px;
+    height: 50px;
+    background-color:rgba(3,46,89,0.5);
+    margin: 70px auto;
+    margin-top: 90px;
+}
+.titou .bg  {
+      float: right;
+}
+.titou .bg li  {
+    float: left;
+    padding: 12px 55px  ;
+    height: 25px; 
+}
+.titou .bg li:hover{
+    background-color: rgba(172,231,0,0.5);
+     
+    border-radius: 0px;
+}
+.titou .bg li a:hover   {
+    font-size: 20px;
+    color: #1F1F1F;
+}
+.titou .bg li a{
+    color: #F7F7F7;
+}
+/***************内容区*******************/
+/*******整体定位*********/
+.neirong{
+     
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+.neirong .zi_neirong1{
+    background-color: #09284A ;
+    width: 240px;
+    height: 1000px;
+    float: left;
+    position: relative;
+}
+.neirong .zhu_neirong{
+    background-color:rgba(9,40,74,0.3);
+    width: 800px;
+    height: 1000px;
+    margin: 0 10px;
+    float: left;
+}
+.neirong .zi_neirong2{
+    background-color:rgba(9,40,74,0.3); 
+    width: 240px;
+    height: 1000px;
+    float: right;
+    position: relative; 
+}
+/**************子内容左*******************/
+.neirong .zi_neirong1 .img{
+     padding-top:0  ;
+     
+}
+.neirong .zi_neirong1 .zn1{
+    width: 210px;
+    height: 140px;
+    margin: 0 auto;
+    border-color: #BAC5C1;
+    border-style: solid;
+    background-color: #141414;
+    border-radius: 22px;
+    margin-top: 25px;
+}
+.neirong .zi_neirong1 .zn1 .zn1_1{
+    width: 210px;
+    height: 60px;
+    background-color:#CCFFFF;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom: 2px #FFCC00 solid;
+}
+.neirong .zi_neirong1 .zn1 .zn1_2{
+    width: 210px;
+    height: 79px;
+    background-color: #6699CC;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+.neirong .zi_neirong1 .zn1 .zn1_1 p{
+    font-size: 30px;
+    color: #FF6600;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    left: 60px;
+}
+.neirong .zi_neirong1 .zn1 .zn1_1 p:hover{
+  text-decoration: underline;
+/*****字体下划线**/
+}
+.neirong .zi_neirong1 .zn1 .zn1_1 .s1{
+    background-color: #06060E;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 24px;
+    margin-left: 28px; 
+}
+.neirong .zi_neirong1 .zn1 .zn1_1 .s2{
+    background-color: #06060E;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 28px; 
+}
+.neirong .zi_neirong1 .zn1 .zn1_2 p{
+     text-align: center;
+     font-size: 20px;
+     padding-top: 25px;
+}
+.neirong .zi_neirong1 .img1 {
+    padding-top: 15px;
+}
+/***************子内容右******************/
+.neirong .zi_neirong2 .guanzhu{
+    width: 240px;
+    height: 200px;
+    /*border: 5px #CCFFFF solid;*/
+    /*background-image: url(../h/2345截图20160509200225.jpg);*/
+    border-top: 3px #09285B solid;
+    border-bottom: 3px #09285B solid;
+}
+/****关注区域内部***/
+.neirong .zi_neirong2 .guanzhu .ii{
+    width: 130px;
+    height: 50px;
+    background-color: rgba(102,255,255,0.5);
+    border-radius: 5px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.neirong .zi_neirong2 .guanzhu p{
+    color: #A14600;
+    font-size:18px;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.neirong .zi_neirong2 .guanzhu .i{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+/*******************/
+.neirong .zi_neirong2 .leibiao{
+    width: 230px;
+    height: 780px;
+    border: 5px #09285B solid;
+}
+.neirong .zi_neirong2 .leibiao .lb1{
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    background-color: rgba(0,12,66,0.3);
+    margin:6px auto;
+}
+.neirong .zi_neirong2 .leibiao p{
+    font-size: 12px;
+    color: #636363;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+.neirong .zi_neirong2 .leibiao p a{
+    text-decoration: underline;
+    color: #636363;
+}
+.neirong .zi_neirong2 .leibiao p a:hover{
+    color: #FFFF00;
+}
+.neirong .zi_neirong2 .leibiao .lb2{
+    width: 200px;
+    height:120px;
+    border-radius: 10px;
+    background-color:rgba(0,12,66,0.3);
+    margin:6px auto;
+}
+.neirong .zi_neirong2 .leibiao .lb3{
+    width: 200px;
+    height:290px;
+    border-radius: 10px;
+    background-color:rgba(0,12,66,0.3);
+    margin:6px auto; 
+}
+.zi_neirong2 .leibiao .lb3 .a1{
+    color: #055DB5;
+}
+/****主内容区*********************/
+.zhu_neirong .biankuang_l img {
+    float: left;
+    margin-top: -5px;
+    position: relative;
+    height: 980px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.neibu .biao1{
+    padding-right: 120px;
+    padding-top: 30px;
+    float: right;
+}
+.neibu .biao1 li{
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.neibu .biao1 .low{
+    color: #00294F;
+}
+.neibu .biao1 .luntan{
+    color: #00294F;
+}
+.neirong h2{
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 16px;
+  color: #BFBFBF;
+  font-weight: 100px;
+}
+.neibu .e1{ 
+    font-size: 15px;
+    color: #CC0000;
+    margin-top: 5px; 
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong .biao2{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-weight: 200;
+}
+.zhu_neirong .biao2 .q1{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.zhu_neirong .biao3{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.neibu .e2{ 
+    font-size: 15px;
+    color: #CC0000;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong .biao3 .q2{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.zhu_neirong .biao4{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.neibu .e3{ 
+    font-size: 15px;
+    color: #CC0000;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong .biao4 .q3{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.zhu_neirong .biao4 .r1{
+    padding-bottom: 15px;
+}
+/*************中间区域*********************/
+.ee{
+    background-color:rgba(9,40,74,0.3);
+    width: 1300px;
+    height: 97px;
+    margin: 20px   auto;
+}
+.ee .left{
+    margin: 7px; 
+    margin-left: 5px;
+    width: 300px;
+    height: 84px;
+    float: left;
+    background-color:rgba(9,40,74,0.3); 
+}
+.ee .relavte{
+    margin: 7px;
+    width: 970px;
+    height: 84px;
+    float: right;
+    background-color:rgba(9,40,74,0.3); 
+}
+.ee .left .tu1{
+    margin-left: 30px;
+    margin-top: -68px;
+    width: 250px;
+    height: 60px;
+     
+}
+.ee .left .tu1 img{
+    float: left;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-left: 20px;
+     
+}
+.ee .left a{
+    font-size: 12px;
+    color: #737373;
+    padding-left: 35px;
+} 
+.ee .relavte .tu2{
+    margin-left: 30px;
+    margin-top: -68px;
+    width: 900px;
+    height: 60px;
+     
+}
+.ee .relavte .tu2 img{
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.ee .relavte .tu2 a{
+    font-size: 12px;
+    color: #737373;
+    padding-left: 30px;
+}
+/*******中加部分字体变化**********/
+.ee a:hover{
+    color: #0033FF;
+}
+.ee .relavte a:hover{
+     color: #0033FF;
+}
+.ee .left_L p:hover{
+    color: #000000;
+}
+/***中间框的细调**/
+.ee .left_L{
+    width: 20px;
+    height: 65px;
+    background-color:#082858;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+.ee .left_L p{
+    float:  left;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #FF009B;
+}
+/**********第二个区域***********/
+.neirong_1{
+     
+    width: 1300px;
+    margin: 10px auto;
+    position: relative;
+}
+ .neirong_1 .zi_neirong1_1{
+    background-color:rgba(9,40,74,0.3);
+    width: 240px;
+    height: 1000px;
+    float: left;
+    position: relative;
+}
+.neirong_1 .zhu_neirong_1{
+    background-color:rgba(9,40,74,0.3);
+    width: 800px;
+    height: 1000px;
+    margin: 0 5px;
+    float: left;
+}
+.neirong_1 .zi_neirong2_1{
+    background-color:#0B3562;
+    width: 240px;
+    height: 1000px;
+    float: right;
+    position: relative;
+}
+/*****************************/
+h1{
+    text-align: center;
+}
+.zhu_neirong_1 .neibu .biao1{
+    padding-right: 120px;
+    padding-top: 8px;
+    float: right;
+}
+.zhu_neirong_1 .neibu .biao1 li{
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.zhu_neirong_1 .neibu .biao1 .low{
+    color: #00294F;
+}
+.zhu_neirong_1 .neibu .biao1 .luntan{
+    color: #00294F;
+}
+h2{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #32383D;
+}
+.zhu_neirong_1 .neibu .e1{ 
+    font-size: 15px;
+    color: #CC0000;
+    padding-top: 10px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong_1 .biao2{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.zhu_neirong_1 .biao2 .q1{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.zhu_neirong_1 .biao3{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.zhu_neirong_1 .neibu .e2{ 
+    font-size: 15px;
+    color: #CC0000;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong_1 .biao3 .q2{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.zhu_neirong_1 .biao4{
+    font-style: 13px;
+    color: #141414;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.zhu_neirong_1 .neibu .e3{ 
+    font-size: 15px;
+    color: #CC0000;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.zhu_neirong_1 .biao4 .q3{
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.zhu_neirong_1 .biao4 .r1{
+    padding-bottom: 15px;
+} 
+/*********区域二右子栏**************************************/
+.neirong_1 .zi_neirong1_1 .shang{
+    width: 240px;
+    height: 400px;
+     
+    background-image: url(../h/2345截图20160509200240.jpg);
+}
+.neirong_1 .zi_neirong1_1 .shang .shang1{
+    width: 220px;
+    height: 100px;
+    background-color: rgba(0,91,95,0.4);
+    margin-top: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+.neirong_1 .zi_neirong1_1 .shang .shang1 .shang1_1{
+    width: 200px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.neirong_1 .zi_neirong1_1 .shang .shang1 .shang1_1 .shang11{
+    width: 200px;
+    height: 35px;
+    border-top-left-radius:9px;
+    border-top-right-radius: 9px;
+    border-bottom: 2px #FFFF00 solid; 
+    background-color: rgba(140,140,140,0.3);
+}
+.shang11 p{
+    text-align: center;
+    color: #B50000;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.zi_neirong1_1 .shang22 p{
+    position: relative;
+    text-align: center;
+    color: #FF9900;
+    font-size: 20px;
+    margin-left: 9px;
+    position: relative;
+    top: 10px;
+}
+.zi_neirong1_1 .shang22 p a{
+    color:rgba(222,89,0,0.9);
+}
+.zi_neirong1_1 .xia{
+    width: 230px;
+    height: 590px;
+    border: 5px #082858 solid;
+}
+.zi_neirong1_1 .xia .y{
+    width: 220px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #082858;
+    border-radius:10px;
+    position: relative; 
+}
+.zi_neirong1_1 .xia a{
+        position: absolute;
+        padding-top: 7px;
+        padding-left: 50px;
+        font-size: 25px;
+        color: #6B6B6B;
+}
+/***字体颜色变化*****/
+.zi_neirong1_1 p:hover{
+    color: #000000;
+}
+.zi_neirong1_1 p a:hover{
+    color: #000000;
+}
+.zi_neirong1_1 .xia a:hover{
+    color: #000000;
+} 
+/************区域二子栏左边*************************/
+.neirong_1 .zi_neirong2_1{
+    width: 230px;
+    height: 990px;
+    border: 5px #082858 solid;
+    position: relative;
+}
+.neirong_1 .zi_neirong2_1 p{
+    color: #D7B02F;
+    float: right;
+    padding-top: 15px;
+    padding-right: 95px;
+}
+.neirong_1 .zi_neirong2_1 .rrr{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.neirong_1 .zi_neirong2_1 .t{
+    width: 210px;
+    height: 90px;
+    margin-left: 10px;
+    background-color: #082858;
+    margin-top: 20px;
+    position: relative;
+}
+.neirong_1 .zi_neirong2_1 .t img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.neirong_1 .zi_neirong2_1 .t a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #636363;
+    padding-left: 3px;
+}
+/****字体变化***/ 
+.neirong_1 .zi_neirong2_1 .t a:hover{
+    color: #FFFFCC;
+}
+.neirong_1 .zi_neirong2_1 .t .tt{
+    float: right;
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/*******************************************************/
+
+ 

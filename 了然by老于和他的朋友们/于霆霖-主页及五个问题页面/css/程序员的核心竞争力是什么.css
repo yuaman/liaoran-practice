@@ -1,0 +1,286 @@
+ul,li,ol,dl,dt,dd{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+  text-decoration: none;
+}
+html,body,h1,h2,h3,h4,h5,h6,p{
+    font-family: "微软雅黑";
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #CFCFCF;
+}
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+  background-color: #0D3B6C;
+}
+/*头部 */
+.clear:after{
+    content:" ";clear: both;display: block;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    z-index: 9999;
+	  background-color: #0D3B6C;
+}
+.header .logo{
+    position: absolute;
+    left: 0px;
+    top: -2px;
+}
+.layout1{
+	 width: 1000px;
+   height: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;;
+    left: 425px;
+}
+.header .layout1 input{
+    border-width: 0;
+    border-radius: 4px;
+}
+.header .layout1 h2{
+     height: 33px;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 50px;
+    margin-bottom: -8px;
+    font-weight: 700;
+    position: absolute;
+    left: 50px;
+    top: 3px;
+}
+.header .layout1 .zu-top-search-input{
+    padding: 0 5px;
+    width: 300px;
+    height: 33px;
+    position: absolute;
+    top: 6px;
+    left: 129px;
+    font-size: 15px;
+}
+.header .layout1 .btn{
+    width: 57px;
+    height: 33px;
+    background-color: #0E77E4;
+    color: #FFF;
+    position: absolute;
+    top: 6px;
+    left: 438px;
+}
+.biaoti{
+    float:right;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+.biaoti li{
+    float: right;
+    font-size: 14px;
+    margin:  15px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.12);
+
+}
+.biaoti li a{
+    color: #fff;
+    font-weight: 200;
+}
+.biaoti li a:hover{
+    color: #FF0000;
+}
+
+.header .layout1 .zu-top-add-question{
+    position: absolute;
+    top: 6px;
+    right: 120px;
+    width: 66px;
+    height: 33px;
+    background-color: #0E77E4;
+    color: #FFF;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.content-main{
+    width: 584px;
+    float: left;
+     margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+/**问题标签栏*/
+.conten-main .biaoqian{
+    width: 584px;
+    height: 28px;
+    float: right;
+
+}
+.content-main .biaoqian li{
+    float: left;
+padding: 1px 10px 0;
+color: #259;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    margin: 0 5px 5px 0;
+    margin-bottom: 25px;
+}
+.content-main .biaoqian li:hover{
+       background: #eff6fa;
+       border-radius: 30px;
+
+}
+/**问题题目栏**/
+.content-main .biaoti2 {
+    width: 584px;
+    height: 30px;
+    float: left;
+    margin-bottom: 20px;
+    color: #225599;
+    font-size: 25px;
+}
+
+/**answer**/
+   /**昵称及签名**/
+   .content-main .answer1 .nameAndSig{
+    width: 584px;
+    height: 70px;
+    float: left;
+    border-bottom: dotted #4991E8 3px;
+    margin-top: 20px;
+ }
+
+
+   .content-main .answer1 .nameAndSig h3{
+    font-size: 25px;
+   }
+   /**answer-content**/
+   .content-main .answer1 .answer-content{
+    float: left;
+    width: 584px;
+    height: 2890px;
+    margin-top: 45px;
+    margin-bottom: 200px;
+   }
+   /**其他按钮（编辑时间，评论数，感谢，分享，收藏，举报，没有帮助，作者保留权利等）**/
+.content-main .answer1 .others{
+    float: right;
+    width: 584px;
+    height: 50px;
+    border-bottom: 1px #4991E8 solid;
+}
+.content-main .answer1 .others a{
+float: left;
+font-size: 14px;
+color: #999999;
+}
+/**answer2**/
+   /**昵称及签名**/
+   .content-main .answer2 .nameAndSig{
+    width: 584px;
+    height: 70px;
+    float: left;
+    border-bottom: dotted #4991E8 3px;
+    margin-top: 20px;
+ }
+
+
+   .content-main .answer2 .nameAndSig h3{
+    font-size: 25px;
+   }
+   /**answer-content**/
+   .content-main .answer2 .answer-content{
+    float: left;
+    width: 584px;
+    height: 200px;
+    margin-top: 45px;
+    margin-bottom: 310px;
+   }
+   /**其他按钮（编辑时间，评论数，感谢，分享，收藏，举报，没有帮助，作者保留权利等）**/
+.content-main .answer2 .others{
+    float: right;
+    width: 584px;
+    height: 50px;
+    border-bottom: 1px #4991E8 solid;
+}
+.content-main .answer2 .others a{
+float: left;
+font-size: 14px;
+color: #999999;
+}
+/**answer3**/
+   /**昵称及签名**/
+   .content-main .answer3 .nameAndSig{
+    width: 584px;
+    height: 70px;
+    float: left;
+    border-bottom: dotted #4991E8 3px;
+    margin-top: 20px;
+ }
+
+
+   .content-main .answer3 .nameAndSig h3{
+    font-size: 25px;
+   }
+   /**answer-content**/
+   .content-main .answer3 .answer-content{
+    float: left;
+    width: 584px;
+    height: -1000px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+   }
+   /**其他按钮（编辑时间，评论数，感谢，分享，收藏，举报，没有帮助，作者保留权利等）**/
+.content-main .answer3 .others{
+    float: right;
+    width: 584px;
+    height: 50px;
+    border-bottom: 1px #4991E8 solid;
+}
+.content-main .answer3 .others a{
+float: left;
+font-size: 14px;
+color: #999999;
+}
+/*子内容*/
+.content-sub{
+    float: right;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+.content-sub .xiangguan{
+    margin-top: 35px;
+    line-height: 35px;
+}
+.content-sub .xiangguan h3{
+    color: #225599;
+    margin-bottom: 10px;
+}
+.content-sub .xiangguan span{
+    color: #999999;
+    font-size: 14px;
+    float: right;
+}
+
+/**你的回答**/
+
+
+/*版权*/
+.footer{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #225599;
+    font-size: 28px;
+}
